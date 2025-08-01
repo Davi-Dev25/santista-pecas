@@ -4,7 +4,7 @@
     padding: 0px;
 }
 :root{
-    --cor0: #FC9F5B;
+    --cor0: #fc9e5b7f;
     --cor1: #BF211E;
     --cor2: #898887;
 
@@ -38,10 +38,7 @@ nav > a{
     text-decoration: none;
     border-radius: 5px;
 }
-#ftheader{
-    height: 70px;
-    width: 100%;
-}
+
 main{
     max-width: 600px;
     margin:auto;
@@ -76,9 +73,7 @@ p{
     padding: 10px;
 }
 #frame{
-    margin: 10px;
-
-
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
