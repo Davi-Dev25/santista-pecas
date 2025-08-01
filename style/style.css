@@ -1,0 +1,85 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor0: #FC9F5B;
+    --cor1: #BF211E;
+    --cor2: #898887;
+
+    --fontp: "roboto"
+}
+body{
+    font-family:var(--fontp) ;
+
+}
+header{
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    background-color: var(--cor0);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > a{
+    color: white;
+    background-color: #F72C25;
+    margin: 10px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#ftheader{
+    height: 70px;
+    width: 100%;
+}
+main{
+    max-width: 600px;
+    margin:auto;
+    text-align: justify;
+    background-color:#E3E3E3;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+section{
+    padding: 10px;
+}
+h1, h2{
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-indent: 30px;
+    font-size: 1.2em;
+
+}
+.cars{
+    max-width: 300px;
+    margin:5px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.275);
+}
+.cars > img{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+#frame{
+    margin: 10px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
