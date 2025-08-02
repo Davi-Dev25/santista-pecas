@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 :root{
     --cor0: #fc9e5b7f;
@@ -12,6 +13,8 @@
 }
 body{
     font-family:var(--fontp) ;
+    width: 100%;
+    height: 100%;
 
 }
 header{
@@ -45,7 +48,7 @@ main{
     text-align: justify;
     background-color:#E3E3E3;
 
-    display: flex;
+        display: flex;
     flex-flow: column wrap;
 }
 section{
@@ -77,4 +80,13 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.whats-btn{
+    border-radius: 50%;
+    
+
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
 }
