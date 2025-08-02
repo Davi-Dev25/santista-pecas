@@ -28,6 +28,9 @@ header{
     justify-content: space-between;
 
 }
+#logo{
+    width: 130px;
+}
 nav{
     display: flex;
     justify-content: center;
@@ -81,10 +84,12 @@ p{
     justify-content: center;
     align-items: center;
 }
-
+body > a{
+    text-decoration: none;
+    color: rgb(1, 78, 1);
+}
 .whats-btn{
     border-radius: 50%;
-    
 
     position: fixed;
     right: 15px;
