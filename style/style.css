@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 :root{
-    --cor0: #fc9e5b7f;
-    --cor1: #BF211E;
-    --cor2: #898887;
+    --cor0: #fb9784;
+    --cor1: #F30000;
+    --cor2: #F56262;
+    --cor3: #A8201A;
 
     --fontp: "roboto"
 }
@@ -29,20 +30,23 @@ header{
 
 }
 #logo{
-    width: 130px;
+    width: 140px;
 }
-nav{
+header nav{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav > a{
+header nav > a{
     color: white;
-    background-color: #F72C25;
+    background-color: var(--cor1);
     margin: 10px;
     padding: 8px;
     text-decoration: none;
     border-radius: 5px;
+}
+header nav > a:hover{
+    background-color: var(--cor3);
 }
 
 main{
@@ -51,11 +55,28 @@ main{
     text-align: justify;
     background-color:#E3E3E3;
 
-        display: flex;
+    display: flex;
     flex-flow: column wrap;
 }
 section{
     padding: 10px;
+}
+h1{
+    background-image: linear-gradient(2deg, red 0%, black 45%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3em;
+
+}
+h2{
+    background-image: linear-gradient(2deg, black 60%, red 30%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3em;
 }
 h1, h2{
     text-align: center;
@@ -78,20 +99,44 @@ p{
     margin: 10px;
     padding: 10px;
 }
+.total-imgs{
+    display: none;
+
+}
 #frame{
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-body > a{
-    text-decoration: none;
-    color: rgb(1, 78, 1);
-}
+
 .whats-btn{
     border-radius: 50%;
 
     position: fixed;
     right: 15px;
     bottom: 15px;
+}
+footer{
+    background-color: var(--cor0);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+footer img, .titulo {
+    display: block;
+    width: 140px;
+}
+footer  nav  a{
+    display: block;
+    color: var(--cor2);
+    margin: 5px;
+}
+footer nav a:hover{
+    color: var(--cor3);
+    transition: .5s;
+}
+footer p {
+    max-width: 360px;
 }
