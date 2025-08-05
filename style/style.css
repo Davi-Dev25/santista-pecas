@@ -17,6 +17,7 @@ body{
     font-family:var(--fontp) ;
     width: 100%;
     height: 100%;
+    scrollbar-width: none;
 
     overflow-x: hidden;
 
@@ -92,6 +93,8 @@ header nav{
 .itens-list > li a{
     color: white;
     font-size: 1.3em;
+    padding: 10px;
+    margin: 5px;
     text-decoration: none;
     display: block;
     transition: .5s;
